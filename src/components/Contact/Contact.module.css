@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container {
+  text-align: center;
+  background-color: rgba(2, 19, 93, 0.7);
+  color: var(--color-text);
+  padding: 20px 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing:0.1cap;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.contactGrid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contactItem:hover {
+  color: #ff9900;
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactGrid {
+    flex-direction: column;
+    gap: 25px;
+  }
+}

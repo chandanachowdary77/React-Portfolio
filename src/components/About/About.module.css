@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.title {
+  text-align: center;
+  color: var(--color-text);
+  font-size: 45px; /* Slightly smaller title */
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.content {
+  width: 90%; /* Reduce width for a more compact look */
+  margin: auto; /* Center the content */
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Ensures items stay centered */
+}
+
+.aboutImage {
+  width: 50%; /* Slightly smaller image */
+  align-items: left;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Reduce spacing between items */
+  align-items: center; /* Center align items */
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 20px; /* Reduce padding */
+  max-width: 80%; /* Keep items compact */
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(165, 215, 232, 0.42) 0%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 22px; /* Slightly smaller text */
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 22px;
+}
+
+.aboutItem img {
+  width: 50px; /* Reduce icon size */
+  height: 50px;
+  margin-right: 10px;
+  filter: sepia(100%) saturate(500%) hue-rotate(0deg); /* Adjusted for vibrant orange */
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Reduce height for better centering */
+  scroll-margin-top: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 90%; /* Adjust for smaller screens */
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 20px;
+  }
+
+  .aboutItem {
+    padding: 10px;
+    max-width: 100%;
+  }
+}

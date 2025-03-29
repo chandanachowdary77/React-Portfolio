@@ -1,0 +1,141 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  max-width: 1200px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 100px 20px; /* More control over spacing */
+  min-height: 100vh; /* Ensure section takes full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-adjust layout */
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+.experienceItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, rgba(86, 180, 211, 0.462) 0%, rgba(5, 18, 140, 0.42) 100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ff9900;
+}
+
+/* Hover Effect */
+.experienceItem:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, rgba(5, 18, 140, 0.42) 100%, rgba(116, 206, 236, 0.462) 0%);
+}
+
+/* Subtle Glow Effect on Hover */
+.experienceItem::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250%;
+  height: 250%;
+  background: radial-gradient(circle, rgba(11, 79, 157, 0.3) 0%, rgba(7, 101, 223, 0) 70%);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+}
+
+.experienceItem:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* Text Animation on Hover */
+.experienceItem:hover h3,
+.experienceItem:hover p {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
+
+.experienceDetails {
+  width: 100%;
+  font-family: var(--font-roboto);
+}
+
+.experienceDetails h3 {
+  font-size: 25px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.experienceDetails p {
+  font-size: 20px;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+.experienceList {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .container {
+    padding: 80px 15px;
+  }
+}
+
+.certificateContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.certificateButton {
+  display: inline-block;
+  background: #ff9900;
+  color: #063e99;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+
+.certificateButton:hover {
+  background: linear-gradient(90deg, #ff9900, #ff6600);
+  transform: scale(1.05);
+}

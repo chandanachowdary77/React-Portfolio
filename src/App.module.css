@@ -1,0 +1,10 @@
+@import "./vars.css";
+
+.App {
+  background: url('/backgrounds.png') no-repeat center/cover;
+  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  width: 100%;
+  min-height: 100vh; /* Ensures content can expand */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
