@@ -6,11 +6,11 @@
     "source": "https://github.com/chandanachowdary77/HotelBooking"
   },
   {
-    "title": "ToDo List",
-    "description": "Built a feature-rich To-Do List app with task addition, editing, deletion, and local storage support for data persistence. Designed a clean, interactive, and responsive UI with drag-and-drop functionality to improve user experience and task management efficiency.",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "source": "https://github.com/chandanachowdary77/ToDo"
-  },
+  "title": "Virtual Health Assistant",
+  "description": "Built a Virtual Health Assistant using React and TypeScript, offering preventive healthcare content such as yoga sessions, health tips, and age-based wellness videos. Integrated Firebase for user authentication and data storage.",
+  "skills": ["TypeScript", "React", "Firebase", "HTML", "CSS"],
+  "source": "https://github.com/chandanachowdary77/HealthAssistant"
+},
   {
     "title": "Real-Time Chat Application",
     "description": "Developed a real-time chat application using WebSockets for instant messaging, ensuring seamless and efficient communication. Integrated user authentication, real-time updates, message history storage, and a responsive UI to enhance the chat experience across different devices.",
