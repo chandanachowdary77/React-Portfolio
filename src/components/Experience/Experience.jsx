@@ -15,16 +15,16 @@ export const Experience = () => {
       certificateLink: "https://drive.google.com/file/d/1MPMsqXwk0T41HYimMfF_G1tYVO5eL5ev/view?usp=drivesdk"
     },
     {
-      organisation: "Web Full Stack Virtual Internship",
-      role: "Full Stack Developer Intern",
-      startDate: "October 2024",
-      endDate: "December 2024",
-      experiences: [
-        "Worked on a full-stack web development project.",
-        "Gained experience with front-end and back-end technologies."
-      ],
-      certificateLink: "https://drive.google.com/file/d/15sBSBLFQYPIJBtq0e9sMYhCze567ELnr/view?usp=drivesdk"
-    },
+  "organisation": "Digital Blinc",
+  "role": "Full Stack Developer Intern",
+  "startDate": "March 2025",
+  "endDate": "May 2025",
+  "experiences": [
+    "Completed a Full Stack Development internship covering frontend, backend, APIs, and database management.",
+    "Built hands-on experience in developing complete web applications using modern technologies."
+  ],
+  "certificateLink": "https://drive.google.com/file/d/11Vg107jZtCO9oXkjh8SGmw-9vsG8eHCg/view?usp=sharing"
+},
   ];
 
   return (
