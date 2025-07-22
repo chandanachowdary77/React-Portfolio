@@ -11,11 +11,11 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a passionate Full Stack Developer. I build beautiful and user-friendly websites and applications. With a focus on both design and development, I create seamless experiences that help you achieve your goals. Let’s build something amazing together!
         </p>
-        <a href="https://drive.google.com/file/d/1A8bmJTiAK7MZEb8uAAgZLIJTdwGwhh6H/view?usp=drivesdk" className={styles.contactBtn}>
+        <a href="https://drive.google.com/file/d/1B_TUJg08Zir8CDs6DraGN_i_-bz0ucqy/view?usp=sharing" className={styles.contactBtn}>
           Resume
         </a>
       </div>
-      <img src="/src/components/hero/heroImage.png" alt="Hero image of me" className={styles.heroImg} />
+      <img src="/heroImage.jpg" alt="Hero image of me" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
