@@ -7,7 +7,7 @@ export const Contact = () => {
     {
       icon: "contact/linkedinIcon.png",
       alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/t-madhu-chandana-devi-710a53269",
+      href: "https://www.linkedin.com/in/thakkellapati-madhu-chandana-devi-710a53269/",
       text: "LinkedIn",
     },
     {
