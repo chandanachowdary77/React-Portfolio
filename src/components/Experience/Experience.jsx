@@ -4,16 +4,16 @@ import styles from "./Experience.module.css";
 export const Experience = () => {
   const history = [
     {
-      organisation: "Bharat Internship",
-      role: "Web Developer Intern",
-      startDate: "March 2024",
-      endDate: "April 2024",
-      experiences: [
-        "Developed a responsive Netflix home page clone and personal portfolio using HTML, CSS, and JavaScript.",
-        "Gained practical experience in front-end web development and responsive design."
-      ],
-      certificateLink: "https://drive.google.com/file/d/1MPMsqXwk0T41HYimMfF_G1tYVO5eL5ev/view?usp=drivesdk"
-    },
+  organisation: "SmartInternz",
+  role: "Intern",
+  startDate: "May 2025",
+  endDate: "July 2025",
+  experiences: [
+    "Completed an industry-level internship with hands-on experience in real-time projects.",
+    "Worked under expert mentorship and enhanced practical knowledge in software development."
+  ],
+  certificateLink: "https://drive.google.com/file/d/1qW-78k1a3X06F9Ip5Xmt8pGKQNoskHU7/view?usp=sharing"
+},
     {
   "organisation": "Digital Blinc",
   "role": "Full Stack Developer Intern",
